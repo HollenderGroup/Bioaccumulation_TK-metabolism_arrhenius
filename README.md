@@ -18,7 +18,7 @@ The core of this repository is an **R implementation** of a one-compartment TK m
 
 - Phase I biotransformation (TK-metabolism)
 - Dynamic (time-varying) exposure
-- Temperature correction via the Arrhenius equation
+- A validation script for temperature correction via the Arrhenius equation
 
 The model was originally developed in MATLAB using the [BYOM platform](https://www.debtox.info/byom.html).
 
