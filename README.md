@@ -9,8 +9,31 @@ This project repository is connected to the journal article:
 
 The key element of this repository is the R-integration of a one-compartment TK model including phase-one biotransformation (TK-metabolism) and dynamic exposure previously developed in Matlab using the [BYOM platform](https://www.debtox.info/byom.html).
 
+## 📁 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `TK_metabolism_arrhenius_calibration.R` | Model calibration (TK-metabolism with Arrhenius temperature correction) |
+| `TK_metabolism_validation_mesocosm.R` | Model validation under fluctuating temperatures (e.g., mesocosm data) |
+| `raths_dff_SI_B01.xlsx` | Input data: tissue and water concentrations |
+| `raths_dff_SI_B04.xlsx` | Input data: water temperatures (validation only) |
+| `Arrhenius_results.xlsx` | Arrhenius fit results (input for validation, if required) |
+
+---
+
 ## How to run this model for your own work?
 
 1. Make sure to provide all necessary input data (tissue and water concentrations), water temperatures.
 2. Open `TK_metabolism_arrhenius_calibration.R` and follow the instructions. **Do not forget to update the molar weights of your analytes!**
 3. For validation use `TK_metabolism_validation_mesocosm.R` and follow the instructions there. An input file including the Arrhenius fits (`Arrhenius_results.xlsx`) may be needed.
+
+
+## 📚 Citation
+
+If you use this model in your work, please cite:
+
+```
+Raths et al. (2026). From laboratory to mesocosm: Temperature and species dependent
+toxicokinetics of the fluorinated herbicide Diflufenican. DOI: TBA
+```
+
