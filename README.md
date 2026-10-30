@@ -9,7 +9,7 @@ This project repository is connected to the journal article:
 
 The key element of this repository is the R-integration of a one-compartment TK model including phase-one biotransformation (TK-metabolism) and dynamic exposure previously developed in Matlab using the [BYOM platform](https://www.debtox.info/byom.html).
 
-## 📁 Repository Contents
+##  Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -28,7 +28,7 @@ The key element of this repository is the R-integration of a one-compartment TK 
 3. For validation use `TK_metabolism_validation_mesocosm.R` and follow the instructions there. An input file including the Arrhenius fits (`Arrhenius_results.xlsx`) may be needed.
 
 
-## 📚 Citation
+##  Citation
 
 If you use this model in your work, please cite:
 
